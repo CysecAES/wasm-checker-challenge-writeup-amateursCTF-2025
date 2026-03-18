@@ -1,6 +1,6 @@
-# Wasm-checker AmateursCTF 2025 writeup
-
+# Wasm-checker - AmateursCTF 2025 writeup
 ---
+title: "Wasm-checker - AmateursCTF 2025"
 date: "2026-03-18"
 tags: ['Shili','Reverse Engineering', 'AmateursCTF 2025']
 summary: "Step-by-step walkthrough of the Wasm Reverse Engineering challenge from AmateursCTF 2025."
@@ -39,7 +39,7 @@ Analyse the file to get more information about it. First, let's check what type 
 file module.wasm
 ```
 
-module.wasm: WebAssembly (wasm) binary module version 0x1 (MVP) - "The file is a WebAssembly (wasm) binary module, which is a low-level binary format designed for efficient execution in web browsers and other environments that support WebAssembly. The version 0x1 (MVP) indicates that it is the initial version of the WebAssembly specification, known as the Minimum Viable Product (MVP)." [Source](https://dev.to/bytehackr/understanding-webassembly-wasm-binary-modules-5h8)
+module.wasm: WebAssembly (wasm) binary module version 0x1 (MVP) - "The file is a WebAssembly (wasm) binary module, which is a low-level binary format designed for efficient execution in web browsers and other environments that support WebAssembly. The version 0x1 (MVP) indicates that it is the initial version of the WebAssembly specification, known as the Minimum Viable Product (MVP)."
 
 Then we check for strings to quickly find any readable ASCII or UTF-8 text inside the binary:
 ```bash:Terminal
