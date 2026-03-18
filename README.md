@@ -1,7 +1,6 @@
 # Wasm-checker AmateursCTF 2025 writeup
 
 ---
-title: "Wasm-checker - AmateursCTF 2025"
 date: "2026-03-18"
 tags: ['Shili','Reverse Engineering', 'AmateursCTF 2025']
 summary: "Step-by-step walkthrough of the Wasm Reverse Engineering challenge from AmateursCTF 2025."
