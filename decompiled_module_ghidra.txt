@@ -1,0 +1,232 @@
+undefined4 export::check(void)
+{
+  if (((((uint)DAT_ram_00000006 + (uint)DAT_ram_00000026) - (uint)DAT_ram_0000001f) -
+       ((uint)bRam00000003 &
+        (uint)(DAT_ram_00000015 ^ DAT_ram_00000029) -
+        (uint)(DAT_ram_0000000c | DAT_ram_0000000d) * (uint)DAT_ram_0000001a |
+       (uint)bRam00000002 | (uint)DAT_ram_00000023 + (uint)DAT_ram_00000027) |
+      (uint)DAT_ram_00000014 - ((uint)DAT_ram_00000004 - (uint)DAT_ram_0000001e)) != 0x6e) {
+    return 0;
+  }
+  if ((DAT_ram_0000000a | DAT_ram_00000024) != 0x5f) {
+    return 0;
+  }
+  if (((DAT_ram_0000001b ^ DAT_ram_00000008) & DAT_ram_0000000f) != 0x2d) {
+    return 0;
+  }
+  if (((DAT_ram_00000021 ^
+       bRam00000001 * (DAT_ram_0000002a * DAT_ram_00000025 ^ DAT_ram_00000018 * DAT_ram_00000012) ^
+       DAT_ram_00000019) & DAT_ram_00000013) != 100) {
+    return 0;
+  }
+  if ((bRam00000000 ^ DAT_ram_0000001c) != 0x17) {
+    return 0;
+  }
+  if ((DAT_ram_00000022 & DAT_ram_00000010) != 0x52) {
+    return 0;
+  }
+  if ((DAT_ram_00000016 & DAT_ram_0000001d) != 0x30) {
+    return 0;
+  }
+  if ((DAT_ram_00000005 | DAT_ram_0000000e) != 0x77) {
+    return 0;
+  }
+  if ((DAT_ram_00000007 & DAT_ram_00000011) != 0x61) {
+    return 0;
+  }
+  if ((uint)DAT_ram_00000028 - (uint)DAT_ram_00000009 != 0x18) {
+    return 0;
+  }
+  if ((undefined *)((uint)DAT_ram_0000000b * (uint)DAT_ram_00000020 - (uint)DAT_ram_00000017) !=
+      &DAT_ram_00002d31) {
+    return 0;
+  }
+  if ((DAT_ram_0000001a & (DAT_ram_00000015 ^ DAT_ram_00000006)) != 0) {
+    return 0;
+  }
+  if ((byte)(DAT_ram_00000027 & DAT_ram_00000014 ^ DAT_ram_0000000a) != 0x56) {
+    return 0;
+  }
+  if ((DAT_ram_00000023 &
+      (DAT_ram_00000028 |
+      (DAT_ram_00000013 - DAT_ram_00000009 & DAT_ram_0000001b) * DAT_ram_00000026)) != 0x20) {
+    return 0;
+  }
+  if ((bRam00000001 & DAT_ram_00000029) != 0x21) {
+    return 0;
+  }
+  if (((DAT_ram_00000018 + DAT_ram_00000022 * DAT_ram_00000016 * DAT_ram_0000000e) -
+       (DAT_ram_0000001d ^ DAT_ram_00000017) & DAT_ram_0000000d) != 0x10) {
+    return 0;
+  }
+  if (((uint)DAT_ram_00000005 ^
+      (uint)DAT_ram_00000011 -
+      ((uint)DAT_ram_0000001e +
+      ((uint)DAT_ram_00000021 + (uint)DAT_ram_00000012 + (uint)DAT_ram_00000024 ^
+      (uint)DAT_ram_00000019))) != 0xfffffe08) {
+    return 0;
+  }
+  if ((undefined *)
+      ((uint)(DAT_ram_00000020 & DAT_ram_0000002a) * (uint)DAT_ram_00000004 -
+      ((uint)bRam00000003 - (uint)DAT_ram_00000008)) != &DAT_ram_00002480) {
+    return 0;
+  }
+  if ((uint)DAT_ram_0000000f - (uint)bRam00000000 * (uint)DAT_ram_00000025 != -0x2516) {
+    return 0;
+  }
+  if ((uint)DAT_ram_0000000c + (uint)bRam00000002 != 0xd8) {
+    return 0;
+  }
+  if ((uint)DAT_ram_00000007 - (uint)DAT_ram_0000000b != -8) {
+    return 0;
+  }
+  if ((byte)((DAT_ram_00000010 | DAT_ram_0000001c) & (DAT_ram_0000001f ^ DAT_ram_0000000d)) != 1) {
+    return 0;
+  }
+  if ((DAT_ram_00000025 - DAT_ram_00000018 & DAT_ram_00000026) != 0) {
+    return 0;
+  }
+  if ((undefined *)((uint)DAT_ram_00000017 * (uint)DAT_ram_0000000c) != &DAT_ram_000035ec) {
+    return 0;
+  }
+  if ((DAT_ram_0000002a & bRam00000002) != 0x61) {
+    return 0;
+  }
+  if ((uint)DAT_ram_00000019 - (uint)DAT_ram_00000020 != 0x14) {
+    return 0;
+  }
+  if ((byte)(DAT_ram_0000001e ^ DAT_ram_00000005 & DAT_ram_00000011) != 0x13) {
+    return 0;
+  }
+  if ((DAT_ram_00000012 | DAT_ram_00000006) != 0x7e) {
+    return 0;
+  }
+  if ((DAT_ram_00000010 | DAT_ram_00000016) != 0x7f) {
+    return 0;
+  }
+  if ((undefined *)
+      ((uint)DAT_ram_0000001d ^ ((uint)DAT_ram_0000000e * (uint)bRam00000003 | (uint)bRam00000001))
+      != &DAT_ram_0000344e) {
+    return 0;
+  }
+  if ((undefined *)
+      (((uint)DAT_ram_0000000a + (uint)DAT_ram_00000007) * (uint)DAT_ram_0000001f ^
+      (uint)DAT_ram_00000021) != &DAT_ram_00002679) {
+    return 0;
+  }
+  if ((DAT_ram_00000022 - ((DAT_ram_00000008 & DAT_ram_0000000b) + DAT_ram_00000027) &
+      DAT_ram_00000024) == 0x5f) {
+    if ((byte)((DAT_ram_0000001c + (DAT_ram_0000000f ^ DAT_ram_00000014) ^ DAT_ram_00000015) *
+               DAT_ram_00000028 & bRam00000000 & DAT_ram_00000013) != 0x60) {
+      return 0;
+    }
+    if ((DAT_ram_00000029 ^ DAT_ram_00000009) != 0x75) {
+      return 0;
+    }
+    if ((uint)DAT_ram_0000001a * (uint)DAT_ram_00000023 -
+        ((uint)DAT_ram_00000004 - (uint)DAT_ram_0000001b) != 0x997) {
+      return 0;
+    }
+    if ((uint)(DAT_ram_00000025 & DAT_ram_00000016) * (uint)bRam00000000 != 0xc20) {
+      return 0;
+    }
+    if (((uint)bRam00000003 & (uint)DAT_ram_0000000a + (uint)DAT_ram_00000009) -
+        (uint)(DAT_ram_00000022 | DAT_ram_00000024) != -0x6f) {
+      return 0;
+    }
+    if ((uint)DAT_ram_0000001c + (uint)DAT_ram_00000018 != 0xd5) {
+      return 0;
+    }
+    if ((byte)(DAT_ram_0000001a | DAT_ram_00000027 | DAT_ram_0000000c) != 0x77) {
+      return 0;
+    }
+    if ((uint)DAT_ram_00000006 - (uint)DAT_ram_0000001b != 6) {
+      return 0;
+    }
+    if ((uint)DAT_ram_0000002a - (uint)DAT_ram_00000021 != 0x49) {
+      return 0;
+    }
+    if (((uint)DAT_ram_00000014 -
+         (uint)DAT_ram_00000007 * (uint)(DAT_ram_00000008 & (DAT_ram_00000005 ^ DAT_ram_0000001e)) ^
+        (uint)DAT_ram_00000020 - (uint)DAT_ram_00000029) != 0xffffff38) {
+      return 0;
+    }
+    if ((uint)DAT_ram_0000000b - (uint)DAT_ram_0000001d != 0x48) {
+      return 0;
+    }
+    if ((DAT_ram_00000017 & DAT_ram_0000000f) != 100) {
+      return 0;
+    }
+    if ((DAT_ram_00000019 ^ DAT_ram_00000023) != 0x40) {
+      return 0;
+    }
+    if ((uint)DAT_ram_00000004 - (uint)DAT_ram_0000000d != 0x31) {
+      return 0;
+    }
+    if ((uint)DAT_ram_00000015 + (uint)DAT_ram_0000000e != 0xe6) {
+      return 0;
+    }
+    if ((((uint)DAT_ram_00000012 |
+         (uint)(byte)(DAT_ram_00000013 ^ DAT_ram_00000011 ^ DAT_ram_00000010) +
+         (uint)DAT_ram_00000028) - (uint)DAT_ram_00000026 ^ (uint)bRam00000002) == 0xdf) {
+      if ((uint)DAT_ram_0000001f - (uint)bRam00000001 != -0x38) {
+        return 0;
+      }
+      if ((DAT_ram_00000024 | bRam00000003) != 0x7f) {
+        return 0;
+      }
+      if ((undefined *)
+          ((uint)DAT_ram_0000002a *
+          ((uint)DAT_ram_00000014 |
+          ((uint)DAT_ram_0000000c - (uint)DAT_ram_0000000a) + (uint)DAT_ram_00000019)) !=
+          &DAT_ram_00007c83) {
+        return 0;
+      }
+      if (((uint)DAT_ram_0000001b -
+           ((uint)DAT_ram_00000020 - ((uint)DAT_ram_00000016 - (uint)DAT_ram_00000005)) |
+          (uint)DAT_ram_00000006) != 0xfffffffe) {
+        return 0;
+      }
+      if ((undefined *)((uint)DAT_ram_0000000e + (uint)DAT_ram_00000004 * (uint)DAT_ram_0000001f) !=
+          &DAT_ram_0000155c) {
+        return 0;
+      }
+      if ((undefined *)
+          ((uint)(DAT_ram_00000022 & bRam00000000) *
+           ((uint)DAT_ram_00000008 & (uint)DAT_ram_00000009 + (uint)bRam00000001) -
+          (uint)DAT_ram_0000000b) != &DAT_ram_000017e5) {
+        return 0;
+      }
+      if ((undefined *)((uint)DAT_ram_00000018 * (uint)DAT_ram_00000027) != &DAT_ram_000011d0) {
+        return 0;
+      }
+      if ((undefined *)((uint)DAT_ram_0000001c * (uint)DAT_ram_0000000f) == &DAT_ram_0000323e) {
+        if (((uint)DAT_ram_00000028 ^
+            (uint)DAT_ram_00000029 ^
+            (uint)DAT_ram_00000011 + (uint)DAT_ram_0000001e ^
+            (uint)DAT_ram_00000025 - (uint)(DAT_ram_00000010 ^ DAT_ram_00000021) ^
+            (uint)(byte)(DAT_ram_00000012 & DAT_ram_00000015 ^ DAT_ram_00000007)) +
+            (uint)DAT_ram_00000017 != -0x15) {
+          return 0;
+        }
+        if ((uint)DAT_ram_00000023 + (uint)DAT_ram_0000001a != 99) {
+          return 0;
+        }
+        if ((uint)DAT_ram_0000000d *
+            (uint)bRam00000002 * (uint)DAT_ram_0000001d * (uint)DAT_ram_00000026 != 0xbc6940) {
+          return 0;
+        }
+        if ((uint)DAT_ram_00000013 +
+            ((uint)DAT_ram_0000000b ^
+            (uint)DAT_ram_00000004 * (uint)DAT_ram_00000005 & (uint)DAT_ram_00000008 ^
+            (uint)DAT_ram_0000001e) == 0x6c) {
+          return 1;
+        }
+        return 0;
+      }
+      return 0;
+    }
+    return 0;
+  }
+  return 0;
+}
