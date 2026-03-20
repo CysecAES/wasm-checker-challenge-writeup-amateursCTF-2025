@@ -358,7 +358,7 @@ Knowing this and the fact that the `main.mjs` file has a variable called `flag` 
 
 ## Solution
 
-3. By reading the constraints, we can treat them as a system of equations so lets find the flag using an SAT solver. We can use python with the [z3](https://github.com/Z3Prover/z3) library to solve the constraints and find the values that satisfy all the checks:
+By reading the constraints, we can treat them as a system of equations so lets find the flag using an SAT solver. We can use python with the [z3](https://github.com/Z3Prover/z3) library to solve the constraints and find the values that satisfy all the checks:
 
 ```python:Python
 from z3 import *
